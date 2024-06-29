@@ -1,0 +1,5 @@
+from azureml.core import Workspace
+subscription_id = '831c8fd6-0f21-4e0d-8291-837f642ecba1'
+resource_group = 'RG1'
+workspace_name = 'PAIWP'
+workspace = Workspace(subscription_id, resource_group, workspace_name)
